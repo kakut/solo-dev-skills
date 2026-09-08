@@ -1,0 +1,3 @@
+interface:
+  display_name: "拆计划 · solo-plan"
+  short_description: "拆解可验证的小任务，明确真实依赖、责任归属与下一步实施路线"
