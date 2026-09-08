@@ -1,0 +1,3 @@
+interface:
+  display_name: "验成果 · solo-review"
+  short_description: "对照需求与实际产物审查改动，发现影响交付的缺陷与验证缺口"
