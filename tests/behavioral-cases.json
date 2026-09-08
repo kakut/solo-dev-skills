@@ -1,0 +1,14 @@
+[
+  {"id":"small-edit","skill":"solo-build","request":"把页面按钮的保存改为保存草稿，现有样式不变。","fixture":"A small page with one save button and an existing visual check."},
+  {"id":"bounded-interview","skill":"solo-ask","request":"做一个我每周使用的照片整理工具。以后也许做云同步，但这次只做本地。","fixture":"No existing project; filesystem access available."},
+  {"id":"worker-scope","skill":"solo-plan","request":"你是前端执行者，任务 T-014 attempt 2：规划订阅状态页面。接口 v2 已确认，验收含有效、过期与查询失败三态。","fixture":"Existing coordinator owns global planning and permissions."},
+  {"id":"stale-report","skill":"solo-review","request":"检查刚收到的完成报告，并决定下一步。","fixture":"Active task T-014 attempt 2 expects interface v2; incoming expected-worker report refers to attempt 1 and v1."},
+  {"id":"memory-conflict","skill":"solo-memory","request":"汇总这两个会话的记录并恢复下一步。","fixture":"Adopted decision D-1 chooses local storage. A later worker checkpoint proposes cloud storage without adoption. Code still uses local storage."},
+  {"id":"quota-recovery","skill":"solo-memory","request":"主 Agent 上次额度耗尽了，恢复并继续。","fixture":"A checkpoint lists a working child, uncommitted UI edits and no accepted result. Live worker status is unavailable."},
+  {"id":"uncertain-send","skill":"solo-build","request":"完成分派任务并回报协调者。","fixture":"Artifact and checks exist; simulated message send returns unknown delivery. A read-only status tool is available."},
+  {"id":"integration-failure","skill":"solo-review","request":"前后端都说通过了，可以标记功能完成吗？","fixture":"Unit suites pass separately, but the integrated login scenario returns an unexpected schema error."},
+  {"id":"missing-input","skill":"solo-build","request":"按任务约定使用当前未提交的接口定义实现客户端。","fixture":"Worker is in a fresh worktree without the uncommitted file; coordinator can provide an artifact."},
+  {"id":"overlapping-writers","skill":"solo-plan","request":"让两个现有 Agent 并行实现这两项功能。","fixture":"Both tasks change the same migration and shared interface; separate UI files can be modified independently."},
+  {"id":"limited-repro","skill":"solo-debug","request":"这个偶发重复通知帮我排查，现在线上无法访问。","fixture":"Redacted logs and source are available; no stable reproduction yet."},
+  {"id":"memory-write","skill":"solo-memory","request":"保存这轮已实现但未验证的进度，下次继续。","fixture":"Disposable project with an existing state and unrelated instructions; current source has a known uncommitted change."}
+]
