@@ -1,0 +1,3 @@
+interface:
+  display_name: "续上下文 · solo-memory"
+  short_description: "跨会话保存、核对与恢复项目进度，保留关键决策及未完成事项"
